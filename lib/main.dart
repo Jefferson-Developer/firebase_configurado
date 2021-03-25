@@ -1,15 +1,16 @@
+
+
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-void main() {
+void main() async{
 
   //Inicializar o Firebase
   WidgetsFlutterBinding.ensureInitialized();
 
-  Firestore.instance
-      .collection("user")
-      .document("pontuacao")
-      .setData({"Jamilton": "250", "Ana": "590"});
+  Firestore db = Firestore.instance;
+
+
 
   runApp(MyApp());
 }
