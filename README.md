@@ -3,4 +3,4 @@
 Projeto Flutter com as pré-configurações para o uso do firebase instaladas.
 
 
-# Alterar Apenas o google-services.json
+Para o uso é necessario apenas alterar o google-services.json
